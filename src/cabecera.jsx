@@ -4,7 +4,7 @@ import './App.css'
 function Cuerpo1(){
 	return(
 		<>
-			<div className="Logo"><img src="./assets/imagenes/Logo.png" alt="no leas esto" width="1rem" height="1rem"></img></div>
+			<div className="Logo"><img src='./assets/imagenes/Logo.png' alt='' className="Logotipo"></img></div>
 		</>
 	)
 }
