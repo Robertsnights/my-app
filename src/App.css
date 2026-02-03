@@ -7,3 +7,45 @@
   position: relative;
   float: left ;
 }
+.Nombre{
+  background: url("./assets/imagenes/info.jpg");
+  width: 48rem;
+  height: 9rem;
+  position: relative;
+  margin: 1rem;
+  float: left;
+}
+
+h1{
+  text-align: center;
+  position: relative;
+  margin: auto;
+  color: silver;
+  text-shadow: 3px 3px 5px black;
+}
+div{
+  margin:1px;
+}
+
+.Botonera{
+  width: 200px;
+  height: 150px;
+  position: relative;
+  margin: 1px;
+  float: left;
+}
+ul{
+  list-style-type: none;
+  position: relative;
+  margin-right: 10px;
+}
+.menu{
+  width: 101px;
+  height: 1.6rem;
+  background: -webkit-linear-gradient(rgba(255,215,0,0.45) 45%, rgba(97,0,0,0.5));
+  position: relative;
+  float: left;
+  margin-top: 2px;
+  margin-left: 2px;
+  text-align: center;
+}
