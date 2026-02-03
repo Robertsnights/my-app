@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './assets/CSS/Cuerpo1.css'
 
 function Cue1() {
 
   return (
     <>
-      <div className="beta">Analista</div>
+      <div className="Foto"></div>
+      <div className="Listados">
+        <div className="Zona1">a</div>
+      </div>
     </>
   )
 }
