@@ -2,13 +2,13 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+function Cue1() {
 
   return (
     <>
-      
+      <div className="beta">Analista</div>
     </>
   )
 }
 
-export default App
+export default Cue1

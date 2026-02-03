@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-function Cuerpo1(){
+function Cabe(){
 	return(
 		<>
 			<div className="Logo"><div className="Logotipo"></div></div>
@@ -11,10 +11,10 @@ function Cuerpo1(){
 			<nav className="Botonera">
 				<ul>
 					<li className="menu"><a href={'#Cabecera'}>	Inicio</a></li>
-					<li className="menu"><a href={'#a'}>Sobre Mi</a></li>
-					<li className="menu"><a href={'#b'}>Hobbies</a></li>
-					<li className="menu"><a href={'#c'}>Proyectos</a></li>
-					<li className="menu"><a href={'#final'}>Final</a></li>
+					<li className="menu"><a href={'#Cuerpo1'}>Sobre Mi</a></li>
+					<li className="menu"><a href={'#Cuerpo2'}>Hobbies</a></li>
+					<li className="menu"><a href={'#Cuerpo3'}>Proyectos</a></li>
+					<li className="menu"><a href={'#Final'}>Final</a></li>
 				</ul>
 			</nav>
 		</>
@@ -22,4 +22,4 @@ function Cuerpo1(){
 }
 
 
-export default Cuerpo1
+export default Cabe
