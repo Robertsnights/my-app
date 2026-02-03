@@ -1,8 +1,20 @@
 {
-  "name": "my-app",
-  "private": true,
+  "name": "my_app",
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/Robertsnights/my-app#readme",
+  "bugs": {
+    "url": "https://github.com/Robertsnights/my-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertsnights/my-app.git"
+  },
+  "license": "ISC",
+  "author": "nicolas",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

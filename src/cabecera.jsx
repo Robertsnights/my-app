@@ -10,11 +10,11 @@ function Cuerpo1(){
 			</div>
 			<nav className="Botonera">
 				<ul>
-					<li className="menu"><a href={'#Cabecera'}>a</a></li>
-					<li className="menu"><a href={'#a'}>a</a></li>
-					<li className="menu"><a href={'#b'}>a</a></li>
-					<li className="menu"><a href={'#c'}>a</a></li>
-					<li className="menu"><a href={'#final'}>a</a></li>
+					<li className="menu"><a href={'#Cabecera'}>	Inicio</a></li>
+					<li className="menu"><a href={'#a'}>Sobre Mi</a></li>
+					<li className="menu"><a href={'#b'}>Hobbies</a></li>
+					<li className="menu"><a href={'#c'}>Proyectos</a></li>
+					<li className="menu"><a href={'#final'}>Final</a></li>
 				</ul>
 			</nav>
 		</>
