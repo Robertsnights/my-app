@@ -10,3 +10,8 @@ Nota de version: 1.0.0:
   - "<header Construido /header>"
   - Insertacíon de 2 imagenes
   - Borrado de Herobrine
+
+Nota de version: 2.0.0:
+  - Foto de mi persona añadida.
+  - Listado de Cursos añadidos
+  - Mejoras en el CSS
