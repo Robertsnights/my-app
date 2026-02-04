@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Cue1 from './App.jsx'
+import {Cue1} from './App.jsx'
 import Cabe from './cabecera.jsx'
 
 createRoot(document.getElementById('Cabecera')).render(
