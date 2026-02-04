@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import {Cue1} from './App.jsx'
 import Cabe from './cabecera.jsx'
+import {Detalles} from './galeria.jsx'
 
 createRoot(document.getElementById('Cabecera')).render(
   <StrictMode>
@@ -17,5 +18,7 @@ createRoot(document.getElementById('Cuerpo1')).render(
 )
 
 createRoot(document.getElementById('Cuerpo2')).render(
-  <StrictMode></StrictMode>
+  <StrictMode>
+    <Detalles />
+  </StrictMode>
 )

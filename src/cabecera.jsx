@@ -12,7 +12,7 @@ function Cabe(){
 				<ul>
 					<li className="menu"><a href={'#Cabecera'}>	Inicio</a></li>
 					<li className="menu"><a href={'#Cuerpo1'}>Sobre Mi</a></li>
-					<li className="menu"><a href={'#Cuerpo2'}>Hobbies</a></li>
+					<li className="menu"><a href={'#Cuerpo2'}>Lib. Arte</a></li>
 					<li className="menu"><a href={'#Cuerpo3'}>Proyectos</a></li>
 					<li className="menu"><a href={'#Final'}>Final</a></li>
 				</ul>
