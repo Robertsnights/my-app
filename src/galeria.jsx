@@ -1,10 +1,8 @@
+import {Galeria} from './creadores/zonaCreador.jsx'
 export function Detalles(){
-	
 	return(
 		<>
-		<div>
-			<p>asasas</p>
-		</div>
+			<Galeria />
 		</>
 	)
 }

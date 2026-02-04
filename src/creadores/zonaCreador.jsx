@@ -9,3 +9,12 @@ export function DivText ({Titulo, Descripcion, anio}){
 		</div>
 	)
 }
+
+export function Galeria(){
+	const valor=0
+	return(
+		<div className="Espacio">
+			<h3 className="Titulo">Galeria de dibujos</h3>
+		</div>
+	)
+}
