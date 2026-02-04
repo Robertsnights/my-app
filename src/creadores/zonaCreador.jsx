@@ -1,4 +1,5 @@
 import './Creador.css'
+import {Numeros} from './Generador.jsx'
 export function DivText ({Titulo, Descripcion, anio}){
 	return(
 		<div className="Zona">
@@ -15,6 +16,7 @@ export function Galeria(){
 	return(
 		<div className="Espacio">
 			<h3 className="Titulo">Galeria de dibujos</h3>
+			<Numeros/>
 		</div>
 	)
 }
