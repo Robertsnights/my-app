@@ -8,9 +8,9 @@ export function Cue1() {
     <>
       <div className="Foto"></div>
       <div className="Listados">
-        <DivText  />
-        <DivText  />
-        <DivText  />
+        <DivText Titulo='Desarrollador de Videojuegos' />
+        <DivText  Titulo="Manifiesto"/>
+        <DivText  Titulo="Tarado"/>
       </div>
     </>
   )
