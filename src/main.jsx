@@ -16,3 +16,6 @@ createRoot(document.getElementById('Cuerpo1')).render(
   </StrictMode>,
 )
 
+createRoot(document.getElementById('Cuerpo2')).render(
+  <StrictMode></StrictMode>
+)

@@ -4,11 +4,15 @@ header{
   height: 200px;
   position: relative;
   margin: auto;
+  margin-top: 0rem;
 }
 section{
   width: 1200px;
   height: 600px;
   position: relative;
   margin: auto;
+  background-color: aqua;
+}
+#Cuerpo1{
   background-color: silver;
 }
