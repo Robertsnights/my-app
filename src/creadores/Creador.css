@@ -1,6 +1,6 @@
 .Zona{
 	width: 24rem;
-	height: 9rem;
+	height: 10rem;
 	position: relative;
 	float: left;
 	margin-top: 0.6rem;
@@ -20,4 +20,14 @@
 	position: relative;
 	margin-left: 1rem;
 	margin-top: 0.5rem;
+	height: 1rem;
+	width:7rem;
+}
+.Texto{
+	position:relative;
+	margin-left: 1.5rem;
+}
+.fechas{
+	position: relative;
+	margin-left: 1.5rem;
 }

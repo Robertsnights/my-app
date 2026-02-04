@@ -8,7 +8,8 @@ export function Cue1() {
     <>
       <div className="Foto"></div>
       <div className="Listados">
-        <DivText Titulo='Desarrollador de Videojuegos' />
+        <DivText Titulo='Desarrollador de Videojuegos' Descripcion="Durante  años aprendi lo necesario para el desarrollo de videojuegos por medio de varios motores graficos."
+          anio="2020-2023"/>
         <DivText  Titulo="Manifiesto"/>
         <DivText  Titulo="Tarado"/>
       </div>
