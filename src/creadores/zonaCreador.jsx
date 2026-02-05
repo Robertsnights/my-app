@@ -1,5 +1,5 @@
 import './Creador.css'
-import {Numeros} from './Generador.jsx'
+
 export function DivText ({Titulo, Descripcion, anio}){
 	return(
 		<div className="Zona">
@@ -11,12 +11,9 @@ export function DivText ({Titulo, Descripcion, anio}){
 	)
 }
 
-export function Galeria(){
-	const valor=0
+export function Galeria({imagen}){
+
 	return(
-		<div className="Espacio">
-			<h3 className="Titulo">Galeria de dibujos</h3>
-			<Numeros/>
-		</div>
+		<img className="" src="../imagenes/{imagen}" alt="">
 	)
 }
