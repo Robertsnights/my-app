@@ -52,3 +52,20 @@
 	height: 3rem;
 	float:left;
 }
+
+.Beta{
+	width: 10rem;
+	height: 9rem;
+	position: relative;
+	margin-top: 4rem;
+	margin-left: 3rem;
+	float: left;
+}
+.Alfa{
+	width: 50rem;
+	height: 9rem;
+	position: relative;
+	margin-top: 4rem;
+	margin-left: 3rem;
+	float: left;
+}

@@ -53,3 +53,10 @@ ul{
   margin-left: 2px;
   text-align: center;
 }
+.Contenedor{
+  width: 71rem;
+  height: 30rem;
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}

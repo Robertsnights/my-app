@@ -11,9 +11,9 @@ export function DivText ({Titulo, Descripcion, anio}){
 	)
 }
 
-export function Galeria({imagen}){
+export function Galeria({Etiqueta, imagen}){
 
 	return(
-		<img className="" src="../imagenes/{imagen}" alt="">
+		<img className={Etiqueta} src={imagen}></img>
 	)
 }
