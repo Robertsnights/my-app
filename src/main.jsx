@@ -4,6 +4,7 @@ import './index.css'
 import {Cue1} from './App.jsx'
 import Cabe from './cabecera.jsx'
 import {Detalles} from './galeria.jsx'
+import {Tablas} from './proyectos.jsx'
 
 createRoot(document.getElementById('Cabecera')).render(
   <StrictMode>
@@ -21,4 +22,10 @@ createRoot(document.getElementById('Cuerpo2')).render(
   <StrictMode>
     <Detalles />
   </StrictMode>
+)
+
+createRoot(document.getElementById('Cuerpo3')).render(
+  <>
+    <Tablas />
+  </>
 )
