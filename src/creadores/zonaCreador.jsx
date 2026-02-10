@@ -23,3 +23,13 @@ export function Volver(){
 		<div className="espacio"><a href="#Cabecera" className="Boton">Volver</a></div>
 	)
 }
+export function RellenadorDeTabla({Nombre, Estado, Fecha, Requisito}){
+	return(
+		<tr>
+			<td>{Nombre}</td>
+			<td>{Estado}</td>
+			<td>{Fecha}</td>
+			<td>{Requisito}</td>
+		</tr>
+	)
+}
