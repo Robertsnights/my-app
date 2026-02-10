@@ -1,0 +1,25 @@
+.Boton, .Boton:link, .Boton:hover, .Boton:visited{
+	height: 2.5rem;
+	width: 6.9rem;
+	text-decoration: none;
+	background-color: lightgray;
+	border: 2px solid #000;
+	border-radius: 15px;
+	
+	
+}
+.espacio{
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	float: left;
+	position: relative;
+}
+.Boton:hover{
+	color: blue;
+	background-color: darkgray;
+	text-shadow: 1px 1px 1px black;
+}
+.Boton:active{
+	background-color: indianred;
+	color: goldenrod;
+}

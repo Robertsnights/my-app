@@ -1,4 +1,5 @@
 import {Galeria} from './creadores/zonaCreador.jsx'
+import {Volver} from './creadores/zonaCreador.jsx'
 import './App.css'
 export function Detalles(){
 	return(
@@ -11,6 +12,7 @@ export function Detalles(){
 					<Galeria Etiqueta="Beta" imagen = '../../public/imagenes/Sala de Jefe.png'/>
 					<Galeria Etiqueta="Alfa" imagen = '../../public/imagenes/pasillo.png'/>
 				</div>
+				<Volver />
 			</div>
 			
 		</>

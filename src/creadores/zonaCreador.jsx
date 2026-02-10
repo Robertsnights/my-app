@@ -1,5 +1,5 @@
 import './Creador.css'
-
+import './BotonesCss.css'
 export function DivText ({Titulo, Descripcion, anio}){
 	return(
 		<div className="Zona">
@@ -15,5 +15,11 @@ export function Galeria({Etiqueta, imagen}){
 
 	return(
 		<img className={Etiqueta} src={imagen}></img>
+	)
+}
+
+export function Volver(){
+	return(
+		<div className="espacio"><a href="#Cabecera" className="Boton">Volver</a></div>
 	)
 }

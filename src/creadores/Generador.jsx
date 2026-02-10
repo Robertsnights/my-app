@@ -1,17 +1,17 @@
 import React, {use, useState} from 'react'
 export function Numeros(){
 	const ListaImagenes =['foto1', 'foto2', 'foto3', 'foto4', 'foto5', 'foto6', 'foto7', 'foto8', 'foto9', 'foto10']
-	const [valores, Valores]= useState(number[])
+	const [valores, Valores]= useState([])
 
 	const generarNumeros = () => {
-		const nuevosValores : number[] =[]
-		const usados = new Set<number>()
+		const nuevosValores = []
+		const usados = new Set()
 
 		while (nuevosValores.length <8){
 			const numero = Math.floor(Math.random()*10) +1
-			if (!usado.has(numero)){
+			if (!usados.has(numero)){
 				nuevosValores.push(numero)
-				usado.add(numero)
+				usados.add(numero)
 			}
 		}
 
