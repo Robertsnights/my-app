@@ -1,30 +1,46 @@
-import React, {use, useState} from 'react'
-export function Numeros(){
-	const ListaImagenes =['foto1', 'foto2', 'foto3', 'foto4', 'foto5', 'foto6', 'foto7', 'foto8', 'foto9', 'foto10']
-	const [valores, Valores]= useState([])
+import React, { useState } from "react";
 
-	const generarNumeros = () => {
-		const nuevosValores = []
-		const usados = new Set()
+export function Dado(){
+	const [valor, setValor] = useState(0)
+	const [lanzado, setLanzado] = useState(4)
+	const [repetir, setRepetir] = useState(1)
+	const generarValor = (e) => {
 
-		while (nuevosValores.length <8){
-			const numero = Math.floor(Math.random()*10) +1
-			if (!usados.has(numero)){
-				nuevosValores.push(numero)
-				usados.add(numero)
-			}
+		let total=0
+
+		const veces = parseInt(repetir)||1
+		const dado = parseInt(lanzado)||1
+
+		for (let i =0; i<veces; i++){
+			total += Math.floor(Math.random() * dado) + 1
+
+			setValor(valor + total)
 		}
-
-		Valores(nuevosValores)
+		setValor(valor + total)
+	}
+	const resetaryGenerar = () => {
+		setValor(0)
+	
 	}
 
 	return(
 		<div>
-			{Selecionardor()}
-			<ul>
-				{valores.map((item, index)=> <li key={index}>{item}</li>)}
-			</ul>
-			<button onClick={GenerarValor}>Generar numero</button>
+			<form onSubmit={(e) => {e.preventDefault(); setValor();}}>
+				<input type="number" placeholder="valor del dado"
+				value={lanzado}
+				onChange={(e) => setLanzado(e.target.value)}
+				min="3"
+				/>
+				<input type="number" placeholder="veces a lanzar"
+				value={repetir}
+				onChange={(e) => setRepetir(e.target.value)}
+				/>
+				
+			</form>
+			<button onClick={generarValor}>Generar valor</button>
+			<button onClick={resetaryGenerar}>Reiniciar</button>
+			<p>Valor del dado: {valor}</p>
+			
 		</div>
 	)
 }

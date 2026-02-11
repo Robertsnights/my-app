@@ -5,6 +5,7 @@ import {Cue1} from './App.jsx'
 import Cabe from './cabecera.jsx'
 import {Detalles} from './galeria.jsx'
 import {Tablas} from './proyectos.jsx'
+import {Dadazo} from './Dadazo.jsx'
 
 createRoot(document.getElementById('Cabecera')).render(
   <StrictMode>
@@ -27,5 +28,11 @@ createRoot(document.getElementById('Cuerpo2')).render(
 createRoot(document.getElementById('Cuerpo3')).render(
   <>
     <Tablas />
+  </>
+)
+
+createRoot(document.getElementById('Cuerpo4')).render(
+  <>
+    <Dadazo />
   </>
 )
