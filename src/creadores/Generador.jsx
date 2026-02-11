@@ -24,23 +24,24 @@ export function Dado(){
 	}
 
 	return(
+		<>
 		<div>
-			<form onSubmit={(e) => {e.preventDefault(); setValor();}}>
+			<form onSubmit={(e) => { e.preventDefault(); setValor(); } }>
+				<p>Cantidad de caras en el dado:</p>
 				<input type="number" placeholder="valor del dado"
-				value={lanzado}
-				onChange={(e) => setLanzado(e.target.value)}
-				min="3"
-				/>
+					value={lanzado}
+					onChange={(e) => setLanzado(e.target.value)}
+					min="3" />
+				<br />
+				<p>Cantidad de dados:</p>
 				<input type="number" placeholder="veces a lanzar"
-				value={repetir}
-				onChange={(e) => setRepetir(e.target.value)}
-				/>
-				
+					value={repetir}
+					onChange={(e) => setRepetir(e.target.value)} />
 			</form>
 			<button onClick={generarValor}>Generar valor</button>
 			<button onClick={resetaryGenerar}>Reiniciar</button>
-			<p>Valor del dado: {valor}</p>
-			
+			<p>Valor del dado: {valor}</p>	
 		</div>
+		</>
 	)
 }
